@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Reparaturaufträge": {
+      "placeholders_set": 9,
+      "defaults_keys": ["status", "zusagedatum"],
+      "computed_keys": [],
+      "reason": "Reine Serviceaufträge ohne numerische Berechnung; Status wird als Workflow-Eintrag vorbelegt (angenommen), Zusagedatum als heutiges Datum"
+    },
+    "Kunden": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten ohne berechnete Felder; Namen und Kontaktdaten sind frei einzutragen"
+    }
+  }
+}

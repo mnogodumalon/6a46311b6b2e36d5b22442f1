@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "reparaturauftraege",
+      "app_id": "6a463108843b6cd2d180b8f9",
+      "path": "/rest/apps/6a463108843b6cd2d180b8f9/records",
+      "allowed_fields": [
+        "auftragsnummer",
+        "hersteller",
+        "modell",
+        "fehlerbeschreibung",
+        "zusagedatum",
+        "status",
+        "heute_faellig",
+        "interne_notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Reparaturaufträge — Formular"
+    },
+    {
+      "entity": "kunden",
+      "app_id": "6a463104399c364351f91e8a",
+      "path": "/rest/apps/6a463104399c364351f91e8a/records",
+      "allowed_fields": [
+        "email",
+        "vorname",
+        "nachname",
+        "telefon"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kunden — Formular"
+    }
+  ]
+}

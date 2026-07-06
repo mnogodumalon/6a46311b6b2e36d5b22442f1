@@ -1,0 +1,19 @@
+{
+  "ReparaturauftraegeDialog.tsx": {
+    "auftragsnummer": "z. B. RA-2025-001",
+    "kunde": "Welcher Kunde?",
+    "hersteller": "z. B. Bosch, Makita, DeWalt",
+    "modell": "z. B. GSR 18V-21",
+    "fehlerbeschreibung": "Was ist defekt? Symptome, Fehlercode, Verhalten...",
+    "zusagedatum": "Wann soll es fertig sein?",
+    "status": "z. B. Angenommen, In Reparatur",
+    "heute_faellig": "Ist die Reparatur heute fällig?",
+    "interne_notizen": "Reparaturschritte, Teile, Besonderheiten..."
+  },
+  "KundenDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Mustermann",
+    "email": "max@example.de",
+    "telefon": "z. B. +49 123 456789"
+  }
+}

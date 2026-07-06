@@ -1,0 +1,3 @@
+- Reparaturaufträge (reparaturauftraege): auftragsnummer[string/text], kunde[applookup/select], hersteller[string/text], modell[string/text], fehlerbeschreibung[string/textarea], zusagedatum[date/date], status[lookup/select], heute_faellig[bool], interne_notizen[string/textarea]
+  → kunde links to app_id 6a463104399c364351f91e8a
+- Kunden (kunden): email[string/email], vorname[string/text], nachname[string/text], telefon[string/tel]
